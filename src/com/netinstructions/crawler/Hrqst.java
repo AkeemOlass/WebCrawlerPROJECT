@@ -67,7 +67,7 @@ public class Hrqst {
                         document = Jsoup.connect(x).get();
                         String hinfo = document.select("div.content").text();
                         System.out.print(hinfo);
-                    //    output(hinfo);
+                        output(hinfo);
                     } catch (IOException e) {
                         System.err.println(e.getMessage());
                     }
